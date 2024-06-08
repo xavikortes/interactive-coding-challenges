@@ -6,8 +6,7 @@ url: https://codingchallenges.fyi/challenges/challenge-cat
 status: beta
 last-stage: cat5
 command: cat
-ch-command: cccat
-intro: |-
+description: |-
   This challenge is to build your own version of the Unix Command line tool cat.
 
   The Unix command line tools are a great metaphor for good software engineering and they follow the Unix Philosophies of:
@@ -16,9 +15,9 @@ intro: |-
   - Design programs to be connected to other programs - each tool can be easily connected to other tools to create incredibly powerful compositions.
 
   Following these philosophies has made the simple Unix command line tools some of the most widely used software engineering tools - allowing us to create very complex text data processing pipelines from simple command line tools.
--|
 
-challenge: |-
+  ## The challenge
+
   Let’s check out the man page on cat to find out what it does:
 
   ```
